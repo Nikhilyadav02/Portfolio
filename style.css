@@ -33,11 +33,14 @@ body {
   nav ul li a {
     text-decoration: none;
     color: white;
+    
+    
   }
 
   nav ul li a:hover {
     color: rgb(153, 153, 226);
     font-size: 1.01rem;
+    border : 1px solid rgb(153, 153, 226);
   }
 
   .left {
@@ -156,6 +159,7 @@ body {
     color: white;
     width: 220px;
     height: 3rem;
+    font-size : 1rem;
 
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -168,21 +172,25 @@ body {
     background: rgb(12, 16, 61);
     color: white;
     width: 220px;
+    font-size : 1rem;
     height: 3rem;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+   
   }
 
   .btn1:hover {
     background-color: white;
     color: black;
     font-size: 1.2rem;
+    font-weight : 700;
   }
 
   .btn2:hover {
     background-color: white;
     color: black;
     font-size: 1.2rem;
+    font-weight : 700;
   }
